@@ -1,0 +1,18 @@
+package com.mycompany.problemsolving;
+import java.util.Scanner;
+public class factorial {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int num = sc.nextInt();
+        int mult = 1;
+        for (int i = num; i > 0; i--){
+            mult *= i;
+            
+        }
+        System.out.println(mult);
+        
+        
+    }
+    
+}
